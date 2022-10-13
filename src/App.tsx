@@ -10,7 +10,9 @@ export default function App() {
       <Route index element={<Home />} />
       <Route
         path="/redirect/discord"
-        element={<Redirect url="http://localhost:3333/api/auth/discord" />}
+        element={
+          <Redirect url="https://nlw-esports-backend.herokuapp.com/api/auth/discord" />
+        }
       />
       <Route
         path="/sign-in/discord/success"

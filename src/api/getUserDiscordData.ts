@@ -12,7 +12,7 @@ export default async function getUserDiscordData({
   setUserDiscordData,
 }: IPropsUserDiscord) {
   const data = await axios
-    .get("https://discord.com/api/users/@me", {
+    .get("https://nlw-esports-backend.herokuapp.com/users/@me", {
       headers: {
         authorization: `Bearer ${token}`,
       },

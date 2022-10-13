@@ -25,7 +25,7 @@ export function CreateAdModal({ games }: Games) {
 
     try {
       await axios.post(
-        `http://localhost:3333/api/games/${selectedGameId}/ads`,
+        `https://nlw-esports-backend.herokuapp.com/api/games/${selectedGameId}/ads`,
         {
           name: data.name,
           yearsPlaying: Number(data.yearsPlaying),
