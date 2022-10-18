@@ -5,7 +5,7 @@ import { FormEvent, SetStateAction, useState } from "react";
 import CheckBox from "./Form/CheckBox";
 import DiscordButton from "./Form/DiscordButton";
 import signUp from "../api/auth/signUp";
-import { IUserData } from "../pages/Home";
+import { IUserData } from "../@types";
 import getUserData from "../api/getUserData";
 
 interface ISignUpProps {

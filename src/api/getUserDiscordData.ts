@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-import { IUserDiscordData } from "../pages/Home";
+import { IUserDiscordData } from "../@types";
 
 interface IPropsUserDiscord {
   token: string;

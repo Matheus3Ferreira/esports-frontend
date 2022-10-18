@@ -5,7 +5,7 @@ import { SelectRadix } from "./Form/SelectRadix";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
 import { FormEvent, SetStateAction, useState } from "react";
 import axios from "axios";
-import { IGame } from "../pages/Home";
+import { IGame } from "../@types";
 import CheckBox from "./Form/CheckBox";
 
 interface Games {

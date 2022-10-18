@@ -1,5 +1,5 @@
 import axios from "axios";
-import { IGame } from "../pages/Home";
+import { IGame } from "../@types";
 
 export default async function getGames(
   setGames: React.Dispatch<React.SetStateAction<IGame[]>>

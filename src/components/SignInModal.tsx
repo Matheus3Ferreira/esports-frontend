@@ -5,7 +5,7 @@ import { Input } from "./Form/Input";
 import { FormEvent, SetStateAction, useState } from "react";
 import DiscordButton from "./Form/DiscordButton";
 import signIn from "../api/auth/signIn";
-import { IUserData } from "../pages/Home";
+import { IUserData } from "../@types";
 import getUserData from "../api/getUserData";
 
 interface ISignInProps {

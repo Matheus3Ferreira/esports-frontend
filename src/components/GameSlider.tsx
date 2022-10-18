@@ -1,6 +1,6 @@
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react.es";
-import { IGame } from "../pages/Home";
+import { IGame } from "../@types";
 import React, { useState } from "react";
 import { GameBanner } from "./GameBanner";
 import { CaretLeft, CaretRight } from "phosphor-react";
